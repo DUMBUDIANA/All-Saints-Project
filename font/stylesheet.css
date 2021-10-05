@@ -54,7 +54,7 @@
         url('Roboto-Regular.woff2') format('woff2'),
         url('Roboto-Regular.woff') format('woff'),
         url('Roboto-Regular.ttf') format('truetype');
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 

@@ -243,6 +243,7 @@ html, body {
   margin-bottom: 29px;
   color: #FFFFFF;
   font-family: "Roboto-medium";
+  margin-top: 45px;
 }
 
 .banner .banner-inner .banner-text {
@@ -657,13 +658,14 @@ html, body {
 
 .events .upcoming-events .events-infr .event-day {
   font-size: 38px;
-  font-family: "Roboto-regularnormal";
+  font-family: "Roboto-medium";
   margin-bottom: 24px;
 }
 
 .events .upcoming-events .events-infr .event-category {
   margin: 0 0 11px 0;
   font-size: 21px;
+  font-family: "Roboto-regularnormal";
 }
 
 .events .upcoming-events .events-infr .event-details {
@@ -724,6 +726,7 @@ html, body {
   color: #C46508;
   margin-right: 25px;
   font-size: 24px;
+  font-family: "Roboto-regularnormal";
 }
 
 .events .sunday-time-table .fello-day span {
@@ -732,6 +735,11 @@ html, body {
 
 .events .sunday-time-table p {
   font-size: 18px;
+}
+
+.events .sunday-time-table .time {
+  font-size: 18px;
+  font-family: "Roboto-regularnormal";
 }
 
 .events .menfellowship {
@@ -752,6 +760,7 @@ html, body {
 
 .events .menfellowship .card .heading-infr {
   font-size: 21px;
+  font-family: "Roboto-medium";
 }
 
 .events .menfellowship .card p {
@@ -866,7 +875,7 @@ html, body {
 
 .latest-semons p {
   margin-bottom: 16px;
-  font-size: 34px;
+  font-size: 36px;
   font-family: "Roboto-medium";
 }
 
@@ -1228,7 +1237,7 @@ html, body {
   display: block;
 }
 
-.footer .contact-form {
+.footer .contact-form p {
   font-size: 24px;
   font-family: "Roboto-medium";
   margin-bottom: 50px;
@@ -1245,6 +1254,7 @@ html, body {
   margin-bottom: 20px;
   padding-left: 15px;
   border: 1px solid #F0F0F0;
+  font-family: "Roboto-regularnormal";
 }
 
 .footer .contact-form input[type="email"] {
@@ -1256,6 +1266,7 @@ html, body {
   margin-bottom: 20px;
   padding-left: 15px;
   border: 1px solid #F0F0F0;
+  font-family: "Roboto-regularnormal";
 }
 
 .footer .contact-form textarea {
@@ -1267,6 +1278,7 @@ html, body {
   font-size: 15px;
   padding: 15px 0 0 15px;
   border: 1px solid #F0F0F0;
+  font-family: "Roboto-regularnormal";
 }
 
 .footer .additional-infr {
@@ -1334,11 +1346,13 @@ html, body {
   color: #FFFFFF;
   font-size: 26px;
   margin-bottom: 30px;
+  font-family: "Roboto-medium";
 }
 
 .children-church-banner .banner-inner h1 {
   font-size: 90px;
   color: #FFFFFF;
+  font-family: "Roboto-medium";
 }
 
 .about-children-church {
@@ -1365,15 +1379,16 @@ html, body {
 
 .about-children-church p {
   font-family: "Roboto-regularnormal";
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 21px;
+  line-height: 1.3;
 }
 
 .about-children-church ol {
   font-size: 22px;
-  margin: 15px 18px;
+  margin: 12px 12px;
   font-family: "Roboto-regularnormal";
-  line-height: 25px;
+  line-height: 1.3;
+  margin-left: 38px;
 }
 
 .activities-for-children {
@@ -1381,6 +1396,7 @@ html, body {
 }
 
 .church-activities-details {
+  line-height: 1.3;
   text-align: center;
 }
 
@@ -1426,7 +1442,7 @@ html, body {
   background-position: center;
   background-size: cover;
   height: 740px;
-  width: 1440px;
+  width: 100%;
   position: relative;
   z-index: 1;
   margin-bottom: 48px;
@@ -1451,11 +1467,13 @@ html, body {
   color: #FFFFFF;
   font-size: 26px;
   margin-bottom: 30px;
+  font-family: "Roboto-medium";
 }
 
 .sermons-banner .banner-inner h1 {
   font-size: 90px;
   color: #FFFFFF;
+  font-family: "Roboto-medium";
 }
 
 .our-latest-semons {
@@ -1464,13 +1482,13 @@ html, body {
 
 .our-latest-semons .sermon-heading {
   margin-bottom: 62px;
-  font-family: "Roboto-regularnormal";
+  font-family: "Roboto-medium";
   font-size: 48px;
 }
 
 .our-latest-semons .sermon-heading2 {
   margin-top: 105px;
-  font-family: "Roboto-regularnormal";
+  font-family: "Roboto-bold";
   font-size: 48px;
   margin-bottom: 20px;
 }
@@ -1491,6 +1509,8 @@ html, body {
 
 .our-latest-semons .date span {
   color: #C46508;
+  font-family: "Roboto-regularnormal";
+  font-size: 18px;
 }
 
 .our-latest-semons .tags {
@@ -1679,7 +1699,7 @@ html, body {
 .message p {
   font-size: 22px;
   font-family: "Roboto-regularnormal";
-  line-height: 32px;
+  line-height: 1.3;
   text-align: center;
   margin: 0 75px 51px 72px;
 }
@@ -1714,11 +1734,13 @@ html, body {
   color: #FFFFFF;
   font-size: 26px;
   margin-bottom: 30px;
+  font-family: "Roboto-medium";
 }
 
 .event-banner .events-banner-inner h1 {
   font-size: 90px;
   color: #FFFFFF;
+  font-family: "Roboto-medium";
 }
 
 .comingup-events {
@@ -1728,6 +1750,7 @@ html, body {
 .comingup-events h2 {
   margin: 100px 0 83px 0;
   font-size: 48px;
+  font-family: "Roboto-regularnormal";
 }
 
 .comingup-events img {
@@ -1738,13 +1761,12 @@ html, body {
 
 .comingup-events .event-inner1 {
   margin-top: 235px;
-  font-family: "Roboto-regularnormal";
 }
 
 .comingup-events .event-inner1 h3 {
   margin-bottom: 18px;
-  font-family: "Roboto-regularnormal";
-  font-size: 21px;
+  font-family: "Roboto-medium";
+  font-size: 38px;
 }
 
 .comingup-events .event-inner1 .event-date {
@@ -1754,9 +1776,15 @@ html, body {
   font-size: 21px;
 }
 
+.comingup-events .event-inner1 .event-heading {
+  font-size: 21px;
+  font-family: "Roboto-regularnormal";
+}
+
 .comingup-events .event-inner1 .event-time {
   margin-bottom: 27px;
   font-size: 21px;
+  font-family: "Roboto-regularnormal";
 }
 
 .comingup-events .event-inner1 .direction {
@@ -1797,25 +1825,26 @@ html, body {
 .comingup-events .events-inner2 .event-details h3 {
   font-size: 21px;
   font-family: "Roboto-regularnormal";
-  margin-bottom: 15px;
+  margin-bottom: 11px;
 }
 
 .comingup-events .events-inner2 .event-details .day {
   font-size: 38px;
   margin-bottom: 24px;
+  font-family: "Roboto-medium";
 }
 
 .comingup-events .events-inner2 .event-details .event-infr {
   font-size: 16px;
   font-family: "Roboto-regularnormal";
-  line-height: 22px;
+  line-height: 1.3;
   margin-right: 66px;
 }
 
 .comingup-events .events-inner2 .event-details .time {
-  margin-top: 55px;
+  margin-top: 54px;
   font-size: 21px;
-  font-weight: "Roboto-regularnormal";
+  font-family: "Roboto-regularnormal";
 }
 
 .the-team {
@@ -1894,11 +1923,13 @@ html, body {
   color: #FFFFFF;
   font-size: 26px;
   margin-bottom: 30px;
+  font-family: "Roboto-medium";
 }
 
 .messy-banner .banner-inner h1 {
   font-size: 90px;
   color: #FFFFFF;
+  font-family: "Roboto-medium";
 }
 
 .about-messy-church img {
@@ -1945,18 +1976,19 @@ html, body {
 .testimonials .test-infr h4 {
   font-size: 24px;
   margin: 14px 0 12px 0;
+  font-family: "Roboto-medium";
 }
 
 .testimonials .test-infr .test-details {
   font-family: "Roboto-regularnormal";
   font-size: 22px;
-  line-height: 30npx;
+  line-height: 1.3;
   margin-bottom: 20px;
 }
 
 .testimonials .test-infr .further-details {
   font-size: 21px;
-  font-size: "Roboto-medium";
+  font-family: "Roboto-medium";
 }
 
 .about-church {
@@ -2144,6 +2176,13 @@ html, body {
 }
 
 @media (max-width: 575.98px) {
+  .change {
+    opacity: 0;
+  }
+  .chang2 {
+    opacity: 1;
+    background-color: red;
+  }
   .head .nav-contact p {
     display: none;
   }
